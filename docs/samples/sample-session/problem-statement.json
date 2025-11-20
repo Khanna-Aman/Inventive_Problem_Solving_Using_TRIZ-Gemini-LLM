@@ -1,0 +1,31 @@
+{
+  "problem_title": "Zero-Latency Hazard Detection for L5 Autonomous Vehicles",
+  "domain": "Autonomous Vehicle Engineering / AI Safety Systems",
+  "current_situation": {
+    "description": "Current L4/L5 vehicles rely on massive sensor fusion (LiDAR, Radar, Cameras) to build a 3D world model. They prioritize 'caution' over 'intuition,' often resulting in phantom braking or paralysis in complex scenarios (e.g., heavy snow, erratic human behavior).",
+    "technical_limitations": "Increasing safety currently requires adding more sensors and heavier compute units. This increases latency (processing time), power consumption, and vehicle cost, making mass adoption difficult."
+  },
+  "ideal_final_result": {
+    "description": "The vehicle inherently detects and avoids all hazards instantly, in any weather condition, without requiring expensive sensor upgrades or supercomputers.",
+    "constraints": [
+      "Must not increase the vehicle's production cost",
+      "Must operate with <10ms latency",
+      "Must function without reliance on 5G/Cloud connectivity (fully offline)",
+      "Must not drain the EV battery significantly"
+    ]
+  },
+  "the_contradiction": {
+    "improve": "Accuracy of Object Detection (Safety)",
+    "worsen": "Computational Complexity & Response Time"
+  },
+  "resources": {
+    "available": [
+      "Vehicle Kinetic Energy (braking/movement)",
+      "V2X Data (signals from other cars/infrastructure)",
+      "High-Definition Maps (static data)",
+      "Road surface vibration/friction data",
+      "Passenger biometric data (fear/startle response)"
+    ]
+  }
+}
+
