@@ -1,0 +1,121 @@
+╔════════════════════════════════════════════════════════════════╗
+║   TRIZ BRAINSTORMING APP - Powered by Gemini LLM              ║
+╚════════════════════════════════════════════════════════════════╝
+
+=== TRIZ Problem Statement Collector ===
+
+Please answer the following questions to define your problem:
+
+1. What is the title of your problem? Zero-Latency Hazard Detection for L5 Autonomous Vehicles
+2. What domain/industry does this problem belong to? Autonomous Vehicle Engineering / AI Safety Systems
+3. Describe the current situation and technical limitations: Current L4/L5 vehicles rely on massive sensor fusion...
+4. What is the ideal final result you want to achieve? The vehicle inherently detects and avoids all hazards instantly...
+5. What are the key constraints? (comma-separated): Must not increase cost, <10ms latency, offline operation, low power
+6. What parameter do you want to IMPROVE? Accuracy of Object Detection (Safety)
+7. What parameter typically WORSENS when you try to improve the above? Computational Complexity & Response Time
+8. What resources are available? (comma-separated): Vehicle kinetic energy, V2X data, HD maps, road vibration data
+
+
+Converting your input to structured JSON format using Gemini...
+
+✓ Problem statement created successfully!
+
+Loading TRIZ principles...
+
+✓ Loaded 40 TRIZ principles
+
+=== Generating TRIZ Solutions ===
+Processing 40 TRIZ principles...
+
+  Processing Principle 1: Segmentation...
+  Processing Principle 2: Taking out...
+  Processing Principle 3: Local quality...
+  Processing Principle 4: Asymmetry...
+  Processing Principle 5: Merging...
+  ...
+  Processing Principle 40: Composite materials...
+
+✓ Generated solutions for 40 principles
+
+Loading KPI matrix...
+
+=== Evaluating Solutions Against KPI Matrix ===
+Evaluating 40 principle solutions...
+
+  Evaluating solutions for Principle 1: Segmentation...
+  Evaluating solutions for Principle 2: Taking out...
+  Evaluating solutions for Principle 3: Local quality...
+  ...
+  Evaluating solutions for Principle 40: Composite materials...
+
+✓ Evaluation complete for all solutions
+
+Selecting top 2 solutions per principle...
+
+====================================================================================================
+TOP TRIZ SOLUTIONS - RANKED BY WEIGHTED SCORE
+====================================================================================================
+
+┌──────┬─────────────────────────┬───────────────────────────────────┬────────┬──────────────────────────────────────────────────┐
+│ Rank │ Principle               │ Concept Name                      │ Score  │ Assessment                                       │
+├──────┼─────────────────────────┼───────────────────────────────────┼────────┼──────────────────────────────────────────────────┤
+│ 1    │ #1: Segmentation        │ The 'Spinal' Reflex Sensor Loop   │ 4.45   │ Excellent solution with strong alignment to      │
+│      │                         │                                   │        │ ideal final result and high novelty. Main        │
+│      │                         │                                   │        │ challenges are integration time and safety       │
+│      │                         │                                   │        │ certification requirements. Cost-effective and   │
+│      │                         │                                   │        │ uses readily available components.               │
+├──────┼─────────────────────────┼───────────────────────────────────┼────────┼──────────────────────────────────────────────────┤
+│ 2    │ #10: Preliminary Action │ Pre-Computed Hazard Maps          │ 4.30   │ Highly practical solution that leverages         │
+│      │                         │                                   │        │ existing infrastructure (HD maps) to reduce      │
+│      │                         │                                   │        │ real-time computational burden. Software-only    │
+│      │                         │                                   │        │ implementation enables rapid deployment.         │
+│      │                         │                                   │        │ Limited by reliance on historical data.          │
+├──────┼─────────────────────────┼───────────────────────────────────┼────────┼──────────────────────────────────────────────────┤
+│ 3    │ #25: Self-Service       │ Energy-Harvesting Sensor Network  │ 4.15   │ Innovative approach that solves power            │
+│      │                         │                                   │        │ constraint while adding redundancy. Uses         │
+│      │                         │                                   │        │ vehicle vibration to power distributed sensors.  │
+│      │                         │                                   │        │ Moderate technical risk but high strategic       │
+│      │                         │                                   │        │ value.                                           │
+├──────┼─────────────────────────┼───────────────────────────────────┼────────┼──────────────────────────────────────────────────┤
+│ 4    │ #23: Feedback           │ Adaptive Sensor Fusion            │ 4.10   │ Software-only solution that dynamically adjusts  │
+│      │                         │                                   │        │ sensor weights based on environmental            │
+│      │                         │                                   │        │ conditions. Deployable via OTA update. Strong    │
+│      │                         │                                   │        │ near-term feasibility.                           │
+├──────┼─────────────────────────┼───────────────────────────────────┼────────┼──────────────────────────────────────────────────┤
+│ 5    │ #6: Universality        │ Multi-Function Sensor Arrays      │ 4.05   │ Reduces sensor count by making each sensor       │
+│      │                         │                                   │        │ perform multiple detection tasks. Cost-effective │
+│      │                         │                                   │        │ and uses existing hardware more efficiently.     │
+├──────┼─────────────────────────┼───────────────────────────────────┼────────┼──────────────────────────────────────────────────┤
+│ 6    │ #15: Dynamics           │ Adaptive Processing Allocation    │ 3.95   │ Dynamically allocates compute resources based    │
+│      │                         │                                   │        │ on driving complexity. Reduces average latency   │
+│      │                         │                                   │        │ while maintaining peak performance capability.   │
+├──────┼─────────────────────────┼───────────────────────────────────┼────────┼──────────────────────────────────────────────────┤
+│ 7    │ #28: Mechanics Subst.   │ Acoustic Hazard Detection         │ 3.85   │ Uses sound-based detection to complement visual  │
+│      │                         │                                   │        │ systems. Particularly effective in low-          │
+│      │                         │                                   │        │ visibility conditions. Moderate cost impact.     │
+├──────┼─────────────────────────┼───────────────────────────────────┼────────┼──────────────────────────────────────────────────┤
+│ 8    │ #5: Merging             │ Distributed Sensor Swarms         │ 3.75   │ Multiple simple sensors work in parallel instead │
+│      │                         │                                   │        │ of complex fusion. Reduces individual sensor     │
+│      │                         │                                   │        │ requirements and improves redundancy.            │
+├──────┼─────────────────────────┼───────────────────────────────────┼────────┼──────────────────────────────────────────────────┤
+│ 9    │ #13: The Other Way      │ Environment-Centric Detection     │ 3.65   │ Shifts detection burden to infrastructure.       │
+│      │     Round               │                                   │        │ Requires smart city partnerships but reduces     │
+│      │                         │                                   │        │ vehicle complexity significantly.                │
+├──────┼─────────────────────────┼───────────────────────────────────┼────────┼──────────────────────────────────────────────────┤
+│ 10   │ #1: Segmentation        │ Neuromorphic 'Event' Vision       │ 2.95   │ Promising technology with excellent latency      │
+│      │                         │                                   │        │ characteristics, but faces challenges in         │
+│      │                         │                                   │        │ technical maturity, supply chain availability,   │
+│      │                         │                                   │        │ and cost. Better suited for next-generation      │
+│      │                         │                                   │        │ platforms.                                       │
+└──────┴─────────────────────────┴───────────────────────────────────┴────────┴──────────────────────────────────────────────────┘
+
+
+✓ Reports saved to: output/session_1234567890/
+
+╔════════════════════════════════════════════════════════════════╗
+║   TRIZ BRAINSTORMING SESSION COMPLETE!                        ║
+╚════════════════════════════════════════════════════════════════╝
+
+Session ID: session_1234567890
+Output directory: output/session_1234567890/
+

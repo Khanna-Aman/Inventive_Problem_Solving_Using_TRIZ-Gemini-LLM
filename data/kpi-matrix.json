@@ -1,0 +1,53 @@
+{
+  "kpi_categories": [
+    {
+      "category": "Impact",
+      "kpi": "IFR Alignment (Ideality)",
+      "weight": 0.25,
+      "definition": "Does this solve the core contradiction without compromise?",
+      "score_1_poor": "Compromise: Solves the problem but creates new harmful side effects.",
+      "score_5_excellent": "Ideal: Solves inherently using existing energy/resources; no downsides."
+    },
+    {
+      "category": "Feasibility",
+      "kpi": "Technical Maturity (TRL)",
+      "weight": 0.15,
+      "definition": "Is the science ready? Do we know how to build it?",
+      "score_1_poor": "Basic Research: Theoretical only. Requires inventing new physics/algorithms.",
+      "score_5_excellent": "Proven: Mature technology (TRL 9). Uses standard engineering practices."
+    },
+    {
+      "category": "Supply Chain",
+      "kpi": "Resource Availability",
+      "weight": 0.15,
+      "definition": "Are the raw materials, chips, or specific tech components actually purchasable/accessible?",
+      "score_1_poor": "Scarcity: Relies on rare earth metals, single-source vendors, or embargoed tech.",
+      "score_5_excellent": "Ubiquitous: Uses commodity materials (steel, plastic), open-source code, or standard off-the-shelf chips."
+    },
+    {
+      "category": "Economics",
+      "kpi": "Cost Efficiency",
+      "weight": 0.20,
+      "definition": "What is the impact on Bill of Materials (BOM) and Operational Cost?",
+      "score_1_poor": "Expensive: Significant increase in unit cost (>10%).",
+      "score_5_excellent": "Cost-Negative: Reduces unit cost (removes parts) or is free (software only)."
+    },
+    {
+      "category": "Strategy",
+      "kpi": "Novelty & IP",
+      "weight": 0.10,
+      "definition": "Is this idea unique enough to patent or create a competitive moat?",
+      "score_1_poor": "Obvious: Prior art exists; competitors already do this.",
+      "score_5_excellent": "Breakthrough: Highly unique; strong potential for a defensible patent."
+    },
+    {
+      "category": "Agility",
+      "kpi": "Time-to-Integration",
+      "weight": 0.15,
+      "definition": "How fast can this specific solution be deployed into the product line?",
+      "score_1_poor": "Long-Term: >2 years (requires re-tooling, certification, or new factory).",
+      "score_5_excellent": "Immediate: <3 months (OTA software update or minor assembly change)."
+    }
+  ]
+}
+

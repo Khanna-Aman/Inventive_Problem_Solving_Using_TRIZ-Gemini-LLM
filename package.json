@@ -1,0 +1,26 @@
+{
+  "name": "triz-brainstorming-app",
+  "version": "1.0.0",
+  "description": "TRIZ Inventive Principles Brainstorming App powered by Gemini LLM",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "TRIZ",
+    "brainstorming",
+    "innovation",
+    "gemini",
+    "AI"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "cli-table3": "^0.6.5",
+    "dotenv": "^16.4.5"
+  }
+}
+
